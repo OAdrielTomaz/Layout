@@ -1,0 +1,196 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo base */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f1a;
+    color: #e0e0f0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a2e;
+    padding: 1.5rem;
+    text-align: center;
+    color: #00f7ff;
+    box-shadow: 0 0 15px #00f7ff66;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(0 0 8px #00f7ff88);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #00f7ff;
+}
+
+/* Seção de destaque */
+.highlight {
+    background: linear-gradient(135deg, #450af5, #00f7ff);
+    color: white;
+    padding: 50px 20px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00f7ff66;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.highlight-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.highlight h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    background-color: #ff00cc;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 12px #ff00cc88;
+}
+
+.cta-button:hover {
+    background-color: #e600ac;
+    box-shadow: 0 0 20px #ff00ccaa;
+}
+
+/* Banner */
+.banner {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.banner img {
+    width: 85%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00f7ff99;
+}
+
+/* Galeria */
+.gallery {
+    background-color: #1a1a2e;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px 10px;
+}
+
+.gallery h3 {
+    font-size: 2rem;
+    color: #00f7ff;
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00f7ff55;
+}
+
+/* Formulário */
+.form-container {
+    background-color: #1a1a2e;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #00f7ff55;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ff00cc;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: #121229;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00f7ff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #0ff;
+    box-shadow: 0 0 20px #00f7ffaa;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0d0d1a;
+    color: #999;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    box-shadow: inset 0 2px 10px #00f7ff33;
+}
